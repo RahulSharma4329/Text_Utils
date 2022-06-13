@@ -8,10 +8,10 @@ export default function TextForm(props) {
         setText(newText)
     }
     const handleOnChange = (event) =>{
-        console.log("the state was changed ")
+        // console.log("the state was changed ")
         setText(event.target.value); 
     }
-    // const [text, setText] = useState('Enter text here');
+    const [text, setText] = useState('Enter text here');
     return (
     <div>
         <h1>{props.heading}</h1>
