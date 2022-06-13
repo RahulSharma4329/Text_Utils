@@ -1,4 +1,4 @@
-## Just a sample webapp to conatain some textutils
+## Just a sample webapp to contain some textutils
 
 ## Available Scripts
 
